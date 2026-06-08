@@ -1,3 +1,25 @@
+<<<<<<< HEAD
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fdfaf5;
+    color: #4c3c32;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 10px 5%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+=======
 /* Reset some default styles */
 body, h1, h2, h3, p, ul, li {
     margin: 0;
@@ -14,12 +36,93 @@ header {
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
+>>>>>>> 0ffd7a3822b29867c7ca1d49c7cc7a6de73e68bb
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+<<<<<<< HEAD
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.logo img {
+    height: 100px; 
+    width: auto;
+    object-fit: contain; 
+    display: block;
+    margin-left: 0px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #4c3c32;
+    font-weight: 600;
+}
+
+.hero {
+    height: 70vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/Header.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 { font-family: 'Playfair Display', serif; font-size: 3.5rem; margin-bottom: 10px; }
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 30px;
+    background: #c08e5f;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.menu { padding: 80px 5%; text-align: center; }
+.menu h2 { font-family: 'Playfair Display', serif; font-size: 2.5rem; margin-bottom: 40px; }
+
+.menu-grid { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 30px; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.menu-item { 
+    background: white; 
+    border-radius: 15px; 
+    overflow: hidden; 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.menu-item img { width: 100%; height: 250px; object-fit: cover; }
+
+.item-details { padding: 25px; }
+.item-details h3 { font-family: 'Playfair Display', serif; margin-bottom: 10px; }
+.item-details p { font-size: 0.9rem; color: #6b5a4e; margin-bottom: 15px; }
+.price { color: #c08e5f; font-weight: bold; font-size: 1.1rem; }
+
+
+.about, .contact { padding: 100px 5%; text-align: center; }
+
+.about-container, .contact-container {
+=======
 }
 
 .logo img {
@@ -97,10 +200,17 @@ nav a:hover {
 
 .about p {
     font-size: 18px;
+>>>>>>> 0ffd7a3822b29867c7ca1d49c7cc7a6de73e68bb
     max-width: 800px;
     margin: 0 auto;
 }
 
+<<<<<<< HEAD
+.about h2, .contact h2 { font-family: 'Playfair Display', serif; font-size: 2.5rem; margin-bottom: 20px; }
+
+.contact { background-color: #4c3c32; color: #ffffff; }
+footer { background-color: #3b2f27; color: white; padding: 25px; text-align: center; }
+=======
 .contact {
     padding: 100px 0;
     text-align: center;
@@ -124,3 +234,4 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+>>>>>>> 0ffd7a3822b29867c7ca1d49c7cc7a6de73e68bb
